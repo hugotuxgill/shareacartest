@@ -1,0 +1,19 @@
+
+// underline dos titulos
+@mixin title_underline($color, $max-width, $height, $margin-top) {
+	content: '';
+	 display: block;
+	 background: $color;
+	 height: $height;
+	 max-width: $max-width;
+	 width: 100%;
+	 margin: $margin-top  auto;
+}
+
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}  
+}

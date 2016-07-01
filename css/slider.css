@@ -1,0 +1,65 @@
+/* Space out content a bit */
+			
+		.well {
+			    background-color: transparent;
+    border: none;
+		}
+
+		.slider-example {
+			padding: 10px 0;
+			margin: 35px 0;
+		}
+
+		#destroyEx5Slider, #ex6CurrentSliderValLabel, #ex7-enabled {
+			margin-left: 45px;
+		}
+
+		#ex6SliderVal {
+			color: green;
+		}
+
+		#slider12a .slider-track-high, #slider12c .slider-track-high {
+			background: green;
+		}
+
+		#slider12b .slider-track-low, #slider12c .slider-track-low {
+			background: red;
+		}
+
+		#slider12c .slider-selection {
+			background: yellow;
+		}
+
+
+
+		/* Example 1 custom styles */
+		#ex1Slider .slider-selection {
+   			background: #BABABA;
+  		}
+
+    	/* Example 3 custom styles */
+		#RGB {
+    		height: 20px;
+    		background: rgb(128, 128, 128);
+  		}
+		#RC .slider-selection {
+		    background: #FF8282;
+		}
+		#RC .slider-handle {
+			background: red;
+		}
+		#GC .slider-selection {
+			background: #428041;
+		}
+		#GC .slider-handle {
+			background: green;
+		}
+		#BC .slider-selection {
+			background: #8283FF;
+		}
+		#BC .slider-handle {
+			border-bottom-color: blue;
+		}
+		#R, #G, #B {
+			width: 300px;
+		}
